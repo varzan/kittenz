@@ -26,6 +26,41 @@
                    background-color: #c2c2c2; }   
             object:focus { outline:none; }
             #flashContent { display:none; }
+            #teaminfo {
+                position:fixed; 
+                right: 20px; 
+                top: 200px; 
+                width:200px;
+                border-radius:25px;
+                padding: 25px;
+                background: #1E84F8;
+                font-family:sans-serif;
+                color:white;
+                font-weight: bold;
+                text-align:left;
+            }
+            a:link {
+                    color: white;
+                    text-decoration:underline;
+            }
+
+            /* visited link */
+            a:visited {
+                    color: white;
+                    text-decoration:underline;
+            }
+
+            /* mouse over link */
+            a:hover {
+                    color: white;
+                    text-decoration:none;
+            }
+
+            /* selected link */
+            a:active {
+                    color: #0000FF;
+                    text-decoration:none;
+            }
         </style>
         
         <!-- Enable Browser History by replacing useBrowserHistory tokens with two hyphens -->
@@ -60,6 +95,9 @@
         </script>
     </head>
     <body>
+        <div id="teaminfo">
+            <a href="AmazingFloatingKittenz2.pptx">ppt</a>
+        </div>
         <!-- SWFObject's dynamic embed method replaces this alternative HTML content with Flash content when enough 
              JavaScript and Flash plug-in support is available. The div is initially hidden so that it doesn't show
              when JavaScript is disabled.
@@ -103,6 +141,7 @@
                 </object>
                 <!--<![endif]-->
             </object>
-        </noscript>     
+        </noscript> 
+
    </body>
 </html>
